@@ -1,0 +1,300 @@
+@media screen and (max-width:576px) {
+    .banner_container {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .banner_container h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plant_section {
+        display: none;
+
+    }
+
+    .plant_section_res {
+        display: block;
+        background-color: #EDDCC2;
+        height: 800px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .plant_contant {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .plant_section_res img {
+        margin-bottom: 15px;
+
+
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .mt {
+        margin-top: 20px;
+    }
+
+    .calitati_section {
+        padding: 20px;
+    }
+
+    .Calitati_1_3 {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+    }
+
+    .Calitati_1_3 img {
+        margin: 0;
+    }
+
+    .Calitati_1_4 {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 10px;
+
+    }
+
+    .Calitati_1_4 img {
+        margin: 0;
+    }
+
+    /* vector */
+
+    .vector_section {
+        display: none;
+    }
+
+    .vector_section_res {
+        display: block;
+        background-color: #757F5F;
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .vector_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vector_img h2 {
+        font-size: 35px;
+        text-align: start;
+    }
+
+    .vector_img img {
+        width: 100px;
+
+    }
+
+    .aripi_img {
+        order: -1;
+        width: 80%;
+        margin-left: auto;
+    }
+
+    .aripi_img img {
+        border-radius: 50px 0px 0px 50px;
+    }
+
+    .aripi_contant {
+        text-align: right;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-weight: 300;
+    }
+
+    .aripi_contant_2 {
+        text-align: start;
+    }
+
+    .aripi_img_2 {
+        order: -1;
+        width: 80%;
+        margin-right: auto;
+    }
+
+    .aripi_img_2 img {
+        border-radius: 0 50px 50px 0;
+    }
+
+}
+
+
+/* mediam device */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .banner_container {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .banner_container h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plant_section {
+        display: none;
+
+    }
+
+    .plant_section_res {
+        display: block;
+        background-color: #EDDCC2;
+        height: 800px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .plant_contant {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .plant_section img {
+        margin-top: 15px;
+
+    }
+
+    h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .mt {
+        margin-top: 30px;
+    }
+
+    .calitati_section {
+        padding: 20px;
+    }
+
+    .Calitati_1_3 {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+    }
+
+    .Calitati_1_3 img {
+        margin: 0;
+    }
+
+    .Calitati_1_4 {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 10px;
+
+    }
+
+    .Calitati_1_4 img {
+        margin: 0;
+    }
+
+    .vector_section {
+        display: none;
+    }
+
+    .vector_section_res {
+        display: block;
+        background-color: #757F5F;
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .vector_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .vector_img h2 {
+        font-size: 35px;
+        -align: start;
+    }
+
+    .vector_img img {
+        width: 100px;
+    }
+
+    .aripi_img {
+        order: -1;
+        width: 80%;
+        margin-left: auto;
+    }
+
+    .aripi_img_2 img {
+        border-radius: 0px 50px 50px 0px;
+    }
+
+    .aripi_contant {
+        text-align: right;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-weight: 300;
+    }
+
+    .aripi_contant_2 {
+        text-align: start;
+    }
+
+    .aripi_img_2 {
+        order: -1;
+        width: 80%;
+        margin-right: auto;
+    }
+
+    .aripi_img_2 img {
+        border-radius: 0 50px 50px 0;
+    }
+
+
+}
