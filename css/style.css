@@ -114,9 +114,11 @@ img {
     padding-left: 60px;
     padding-right: 20px;
 }
-.plant_section_res{
+
+.plant_section_res {
     display: none;
 }
+
 .plant_section img {
     height: 368px;
     display: block;
@@ -182,36 +184,103 @@ p {
 }
 
 /* vector section */
-.vector_section{
+.vector_section {
     background-color: #757F5F;
     padding: 50px;
     color: #fff;
 }
-.vector_section_res{
+
+.vector_section_res {
     display: none;
 }
-.vector_img img{
+
+.vector_img img {
     width: 200px;
     margin-right: 15px;
 }
-.vector_img h2{
+
+.vector_img h2 {
     font-size: 40px;
     text-transform: uppercase;
     line-height: 60px;
 }
+
 .vector_img h2 span {
     font-weight: 300;
 }
 
 /*  ”Aripi section */
-.padding{
+.padding {
     padding: 30px;
 }
-.aripi_section{
-    
-}
-h3{
+
+h3 {
     font-size: 30px;
     margin-bottom: 30px;
     font-weight: 300;
+}
+
+.timpul_section {
+    background-color: #EDDCC2;
+    height: 100vh;
+    /* position: absolute; */
+}
+
+.timpul_contant {
+    text-align: center;
+    color: #4B2E25;
+    margin-top: 50px;
+}
+
+.timpul_contant h2 {
+    font-size: 48px;
+    line-height: 50px;
+
+}
+
+.craciunul {
+    background-image: url(../imgages/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    bottom: -125px;
+    border-radius: 20px;
+}
+
+.craciunul h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.craciunul a button {
+    padding: 20px 40px 20px 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #49682F;
+    font-size: 20px;
+}
+
+.impreuna_section {
+    background-color: #F9F8F2;
+}
+
+.impreuna_contant {
+    margin-top: 250px;
+    text-align: center;
+    color: #4B2E25;
+    
+}
+
+.impreuna_contant h2 {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 400;
+
 }
