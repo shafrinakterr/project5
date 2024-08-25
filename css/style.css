@@ -21,10 +21,92 @@ h6 {
 img {
     width: 100%;
 }
-
 .primary_color {
     color: #4B2E25;
 }
+
+.top_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F8F2;
+    padding: 10px 0px 20px 0px;
+}
+.Search_bar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Search_bar img {
+    width: 20px;
+    height: 20px;
+}
+.Search_bar p{
+    font-size: 14px;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.phone p{
+    font-weight: bold;
+}
+.phone img{
+    margin-top: 26px;
+}
+
+.logo_part{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+   
+}
+.logo_part img{
+    width: 100px;
+   
+    
+}
+.Search_bar{
+    flex-basis: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.search{
+    background-color: white;
+    margin-top: 26px;
+    padding: 6px 12px 6px 16px;
+    border-radius: 36px;
+    border: 1px solid #4B2E25;
+
+}
+.search img{
+    width: 18px;
+    height: 18px;
+}
+.search input:focus{
+    border: 0;
+    outline: 0;
+}
+.user{
+    gap: 20px;
+}
+
+.user img{
+    margin-top: 26px;
+}
+
+.profile, .cart{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+
+/* menu end */
 
 .mt {
     margin-top: 70px;
@@ -38,6 +120,10 @@ img {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+}
+
+.menu_res{
+    display: none;
 }
 
 .menu {
@@ -91,7 +177,7 @@ img {
     color: #B36F36;
 }
 
-.banner_container p {
+ p {
     font-size: 24px;
     line-height: 36px;
     margin-top: 30px;
@@ -108,6 +194,7 @@ img {
 .row {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .plant_contant {
@@ -187,7 +274,10 @@ p {
 .vector_section {
     background-color: #757F5F;
     padding: 50px;
-    color: #fff;
+    color: #fff ;
+}
+.vector_img p{
+    color: white ;
 }
 
 .vector_section_res {
@@ -257,6 +347,9 @@ h3 {
     font-weight: 800;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.craciunul_contant p{
+    color: white;
 }
 
 .craciunul a button {

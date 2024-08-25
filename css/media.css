@@ -37,6 +37,11 @@
         padding-right: 0;
     }
 
+    .plant_container {
+        height: 100vh;
+        margin-top: 230px;
+    }
+
     .plant_section_res img {
         margin-bottom: 15px;
 
@@ -65,6 +70,10 @@
 
     }
 
+    .Calitati_1_3 h3 {
+        font-size: 24px;
+    }
+
     .Calitati_1_3 img {
         margin: 0;
     }
@@ -76,6 +85,10 @@
         align-items: center;
         margin-bottom: 10px;
 
+    }
+
+    .Calitati_1_4 h3 {
+        font-size: 24px;
     }
 
     .Calitati_1_4 img {
@@ -94,12 +107,18 @@
         padding: 20px;
         color: #fff;
         text-align: center;
+
+    }
+    .vector_contant p{
+        color: white  ;
     }
 
     .vector_img {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .vector_img h2 {
@@ -166,6 +185,9 @@
         position: relative;
         bottom: -60px;
     }
+    .craciunul_contant p{
+        color: white;
+    }
 
     .impreuna_contant {
         margin-top: 300px;
@@ -176,6 +198,36 @@
         line-height: 28px;
         margin-top: 30px;
 
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu_res {
+        background-color: #4B2E25;
+        padding: 10px;
+        color: white;
+        text-align: center;
+    }
+
+    .meu_item_res {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .meu_item_res h6 {
+        font-size: 18px;
+    }
+
+    .meu_item_res img {
+        width: 15px;
+    }
+
+    .top_item_container {
+        display: none;
     }
 
 }
@@ -222,6 +274,11 @@
         padding-right: 0;
     }
 
+    .plant_container {
+        height: 100vh;
+        margin-top: 230px;
+    }
+
     .plant_section img {
         margin-top: 15px;
 
@@ -249,6 +306,11 @@
 
     }
 
+
+    .Calitati_1_3 h3 {
+        font-size: 28px;
+    }
+
     .Calitati_1_3 img {
         margin: 0;
     }
@@ -260,6 +322,10 @@
         align-items: center;
         margin-bottom: 10px;
 
+    }
+
+    .Calitati_1_4 h3 {
+        font-size: 28px;
     }
 
     .Calitati_1_4 img {
@@ -282,8 +348,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 80%;
+        margin: 0 auto;
     }
 
+    .vector_contant p {
+        color: white !important;
+    }
 
     .vector_img h2 {
         font-size: 35px;
@@ -350,7 +421,7 @@
     }
 
     .impreuna_contant {
-        margin-top: 300px;
+        margin-top: 200px;
     }
 
     .impreuna_contant h2 {
@@ -358,6 +429,36 @@
         line-height: 28px;
         margin-top: 30px;
 
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu_res {
+        background-color: #4B2E25;
+        padding: 10px;
+        color: white;
+        text-align: center;
+    }
+
+    .meu_item_res {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .meu_item_res h6 {
+        font-size: 18px;
+    }
+
+    .meu_item_res img {
+        width: 15px;
+    }
+
+    .top_item_container {
+        display: none;
     }
 
 
